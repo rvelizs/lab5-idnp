@@ -8,29 +8,30 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="87dp"
-        android:layout_height="76dp"
-        android:layout_marginTop="128dp"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
         android:background="@drawable/circular_image"
         android:clipToOutline="true"
         android:cropToPadding="true"
         android:src="@drawable/catedral_aqp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="52dp" />
+        android:elevation="4dp"
+        app:layout_constraintStart_toStartOf="@+id/button4"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:background="@drawable/rounded_button"
-        android:paddingStart="90dp"
-        android:text="Catedral de Arequipa\nOcupa el lado norte de la Plaza de Armas. Tiene una fachada neoclásica y está compuesta por tres portadas, dos arcos laterales, setenta columnas de capiteles corintios y dos torres renacentistas. La construcción de esta iglesia -cuya historia está plagada de avatares- se inició en 1544. Sucesivos terremotos, sin embargo, la fueron afectando hasta que, en 1844 un incendio terminó de arruinarla."
+        android:paddingStart="115dp"
+        android:paddingEnd="15dp"
+        android:text="Catedral de Arequipa\n\nOcupa el lado norte de la Plaza de Armas. Tiene una fachada neoclásica y está compuesta por tres portadas, dos arcos laterales, setenta columnas de capiteles corintios y dos torres renacentistas. La construcción de esta iglesia -cuya historia está plagada de avatares- se inició en 1544. Sucesivos terremotos, sin embargo, la fueron afectando hasta que, en 1844 un incendio terminó de arruinarla."
         android:textColor="#FFFFFF"
         android:textSize="6dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
