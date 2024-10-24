@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragmentCatedral">
+    tools:context=".claustro">
 
     <ImageView
         android:id="@+id/imageView"
@@ -16,7 +16,7 @@
         android:clipToOutline="true"
         android:cropToPadding="true"
         android:elevation="4dp"
-        android:src="@drawable/catedral"
+        android:src="@drawable/claustros"
         app:layout_constraintStart_toStartOf="@+id/button4"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -27,7 +27,7 @@
         android:background="@drawable/rounded_button"
         android:paddingStart="115dp"
         android:paddingEnd="15dp"
-        android:text="Catedral de Arequipa\n\nOcupa el lado norte de la Plaza de Armas. Tiene una fachada neoclásica y está compuesta por tres portadas, dos arcos laterales, setenta columnas de capiteles corintios y dos torres renacentistas. La construcción de esta iglesia -cuya historia está plagada de avatares- se inició en 1544. Sucesivos terremotos, sin embargo, la fueron afectando hasta que, en 1844 un incendio terminó de arruinarla."
+        android:text="Claustro de la Compañía\n\nEste conjunto arquitectónico, construido enteramente de sillar (piedra blanca, volcánica, de Arequipa), es una pequeña joya para los ojos: en el centro de la patio, una fuente, rodeada de arcadas grabadas con motivos florales. Hoy en día, este patio es el hogar de tiendas de artesanía de alta gama. En el primer piso, un elegante bar que vale la pena desviarse."
         android:textColor="#FFFFFF"
         android:textSize="6dp"
         app:layout_constraintEnd_toEndOf="parent"
